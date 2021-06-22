@@ -6,10 +6,9 @@
 #   output:
 #   `output_NT_file.nt` - output N-Triples file
 # =================================================================
+import os
 import sys
 import rdflib
-import os
-import requests
 
 
 if(len(sys.argv) < 2):
